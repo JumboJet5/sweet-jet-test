@@ -1,0 +1,11 @@
+{
+  "name": "sweet_jet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "dependencies": {
+    "lerna": "^6.1.0"
+  }
+}

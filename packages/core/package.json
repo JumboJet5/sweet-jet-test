@@ -1,0 +1,26 @@
+{
+  "name": "@sweet_jet/core",
+  "keywords": [
+    "sweet_jet"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.1.0",
+  "files": [
+    "dist/*"
+  ],
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "@sweet_jet/types": "^0.1.0",
+    "tron-format-address": "^0.1.8"
+  }
+}
