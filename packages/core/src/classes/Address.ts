@@ -1,6 +1,7 @@
 import { fromHex, toHex } from 'tron-format-address'
 import { EMPTY_ADDRESS } from '../constants/common'
-import { IAddress } from "@jjjj_test/types/src/interfaces/Address";
+import { IAddress } from '@jjjj_test/types/src/interfaces/Address'
+import { toChecksumAddress } from 'ethereum-checksum-address'
 
 const ERROR_ADDRESS_NOT_DEFINED = 'Tried to get not defined address'
 
@@ -14,7 +15,7 @@ export class Address implements IAddress {
 
   public set(address: string = EMPTY_ADDRESS): void {
     if (address.startsWith('0x')) {
-      this._hexAddress = address
+      this._hexAddress = toChecksumAddress(address)
     } else {
       this._base58Address = address
     }
@@ -32,7 +33,7 @@ export class Address implements IAddress {
     if (!this._base58Address) {
       throw ERROR_ADDRESS_NOT_DEFINED
     }
-    const hexAddress = toHex(this._base58Address)
+    const hexAddress = toChecksumAddress(toHex(this._base58Address))
     return (this._hexAddress = hexAddress)
   }
 
