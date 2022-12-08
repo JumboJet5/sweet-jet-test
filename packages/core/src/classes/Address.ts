@@ -1,6 +1,6 @@
 import { fromHex, toHex } from 'tron-format-address'
 import { EMPTY_ADDRESS } from '../constants/common'
-import { IAddress } from "@sweet_jet/types/src/interfaces/Address";
+import { IAddress } from "@jjjj_test/types/src/interfaces/Address";
 
 const ERROR_ADDRESS_NOT_DEFINED = 'Tried to get not defined address'
 

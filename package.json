@@ -1,9 +1,10 @@
 {
-  "name": "sweet_jet",
+  "name": "jjjj_test",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "versions": "lerna version"
   },
   "dependencies": {
     "lerna": "^6.1.0"

@@ -1,12 +1,12 @@
 {
-  "name": "@sweet_jet/core",
+  "name": "@jjjj_test/core",
   "keywords": [
-    "sweet_jet"
+    "jjjj_test"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "files": [
     "dist/*"
   ],
@@ -20,7 +20,19 @@
     "start": "tsc --watch"
   },
   "dependencies": {
-    "@sweet_jet/types": "^0.1.0",
+    "@jjjj_test/types": "^0.1.0",
     "tron-format-address": "^0.1.8"
-  }
+  },
+  "description": "core utils",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumboJet5/sweet-jet-test.git"
+  },
+  "author": "JumboJet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JumboJet5/sweet-jet-test/issues"
+  },
+  "homepage": "https://github.com/JumboJet5/sweet-jet-test#readme"
 }

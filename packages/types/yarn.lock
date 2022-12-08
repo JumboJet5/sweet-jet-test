@@ -2,7 +2,12 @@
 # yarn lockfile v1
 
 
-tron-format-address@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/tron-format-address/-/tron-format-address-0.1.8.tgz#e25226dc00822fc91b0efeeae0fbf555584379fa"
-  integrity sha512-oTtzUM43OZhQiv1p2aOVqbnev6mmJHXQrMpS3nn7zVAI/+ffA/aF+Y/vugHtYotckkromRLPEl/SR1HfJjAYQA==
+"my-package@^0.0.0":
+  "integrity" "sha512-2Au2tYIZqiX83bizWvvlzDAjAICfqDA/KmFA5+cR1xnKHr5D576q7SktqvEtSAIeZ0GL0uU17LUQkKiWrJK2kQ=="
+  "resolved" "https://registry.npmjs.org/my-package/-/my-package-0.0.0.tgz"
+  "version" "0.0.0"
+
+"tron-format-address@^0.1.8":
+  "integrity" "sha512-oTtzUM43OZhQiv1p2aOVqbnev6mmJHXQrMpS3nn7zVAI/+ffA/aF+Y/vugHtYotckkromRLPEl/SR1HfJjAYQA=="
+  "resolved" "https://registry.npmjs.org/tron-format-address/-/tron-format-address-0.1.8.tgz"
+  "version" "0.1.8"
