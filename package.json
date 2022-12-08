@@ -9,5 +9,8 @@
   },
   "dependencies": {
     "lerna": "^6.1.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
   }
 }
