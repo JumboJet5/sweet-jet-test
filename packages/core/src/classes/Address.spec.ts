@@ -1,7 +1,7 @@
-import { Address } from "./Address";
-import { EMPTY_ADDRESS } from "../constants/common";
-import { fromHex, toHex } from "tron-format-address";
-import * as AddressFormatter from "tron-format-address";
+import { Address } from './Address'
+import { EMPTY_ADDRESS } from '../constants/common'
+import * as AddressFormatter from 'tron-format-address'
+import { fromHex, toHex } from 'tron-format-address'
 
 const hexAddress_1 = '0xc2132D05D31c914a87C6611C10748AEb04B58e8F'
 const base58Address_1 = 'TTfP4dtqSpxK5z3DXPmhFEd9f8SDe3JoyQ'
@@ -62,7 +62,6 @@ describe('Address class', () => {
     address_1.toBase58()
     expect(_toHex).toBeCalledTimes(0)
     expect(_fromHex).toBeCalledTimes(1)
-
 
     const address_2 = new Address(base58Address_2)
 

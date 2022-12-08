@@ -16,8 +16,10 @@ export class Address implements IAddress {
   public set(address: string = EMPTY_ADDRESS): void {
     if (address.startsWith('0x')) {
       this._hexAddress = toChecksumAddress(address)
+      this._base58Address = undefined
     } else {
       this._base58Address = address
+      this._hexAddress = undefined
     }
   }
 
