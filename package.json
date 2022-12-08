@@ -4,7 +4,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "versions": "lerna version"
+    "versions": "lerna version",
+    "publish": "lerna publish"
   },
   "dependencies": {
     "lerna": "^6.1.0"

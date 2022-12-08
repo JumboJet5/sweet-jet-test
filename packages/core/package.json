@@ -6,7 +6,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "files": [
     "dist/*"
   ],
@@ -20,11 +20,10 @@
     "start": "tsc --watch"
   },
   "dependencies": {
-    "@jjjj_test/types": "^0.1.0",
+    "@jjjj_test/types": "^0.1.2",
     "tron-format-address": "^0.1.8"
   },
   "description": "core utils",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JumboJet5/sweet-jet-test.git"
